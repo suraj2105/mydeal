@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/Custom.css">
+</head>
+<body>
+<form>
+    <nav>
+  
+    <h1 class="brand"><a href="index.html">MyDeal</a></h1>
+         <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Dynamic Website.html">Dynamic Website Pack</a></li>
+		<li><a href="Static Website.html">Static Website Pack</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	    </ul>
+        <div style="clear:both"></div>
+        
+   </nav>
+   <div class="responsive-bar">
+         <h3 class="brand"><a href="index.html">MyDeal</a></h3>
+         <h4 class="menu">Menu</h4>
+         <div style="clear:both"></div>
+   </div>
+	<div class="title">
+		<h1>Contact Us</h1>
+	</div>
+	
+	<div class="box">
+		<form>
+		<input type="text" name="name" class="form-control" placeholder="Enter Your Name" required><br>
+		<input type="email" name="email" class="form-control" placeholder="Enter Your Email" required><br>
+		<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+		<input type="submit" name="" class="form-control submit" value="SEND MESSAGE">
+		</form>
+	</div>
+	</form>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $(".menu").click(function () {
+                  $("nav").slideToggle(500);
+              })
+          })
+      </script>
+</body>
+</html>
